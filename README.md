@@ -1,7 +1,7 @@
 # WhatsApp AI Insights Pipeline
 
 ## Summary
-I developed this pipeline to handle the inherent "noise" in raw WhatsApp message streams. The core challenge wasn't just receiving data, but turning a continuous flow of texts into something a business can actually use.
+I developed this pipeline to handle the inherent "noise" in raw WhatsApp message streams. The core challenge wasn't just receiving data, but turning a continuous flow of texts into something a business can actually  use.
 
 To solve this, I built a custom Sessionization Engine. Since people don't chat in perfect blocks, the logic uses a 30-minute "cool-down" period to automatically group related messages together. This gives the AI the context it needs to provide accurate summaries.
 
